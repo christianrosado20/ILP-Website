@@ -1,8 +1,22 @@
 {
+  "name": "ILP-Website",
+  "version": "1.0.0",
+  "description": "ILP Website for UPRM with the MERN Stack",
+  "main": "app.js",
+  "repository": "https://github.com/christianrosado20/ILP-Website.git",
+  "author": "Christian Rosado <christian.rosado20@upr.edu>",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "concurrently": "^5.2.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.9.18"
+    "mongoose": "^5.9.18",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app",
+    "dev": "concurrently \"npm run app\" \"npm run client\""
   }
 }
