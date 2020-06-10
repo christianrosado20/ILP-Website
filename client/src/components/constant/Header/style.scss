@@ -1,0 +1,12 @@
+$black: #000000;
+$green: #099a35;
+
+.Header__navbar {
+    a {
+        color: $black;
+    }
+    a:hover {
+        color: $green;
+    }
+    
+}

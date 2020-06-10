@@ -1,0 +1,16 @@
+// Colors
+$black: #000000;
+$green: #099a35;
+$white: #ffffff;
+
+.Footer__navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: $green;
+    padding: 1rem;
+    a {
+        color: $white;
+    }
+}
