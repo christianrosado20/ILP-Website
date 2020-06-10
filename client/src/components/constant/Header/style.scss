@@ -1,12 +1,15 @@
 $black: #000000;
 $green: #099a35;
+$white: #ffffff;
 
 .Header__navbar {
+    background-color: $green;
     a {
-        color: $black;
+        color: $white;
     }
     a:hover {
-        color: $green;
+        color: $white;
+        transition: 0.25s;
     }
     
 }
