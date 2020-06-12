@@ -1,0 +1,59 @@
+// Colors
+$black: #000000;
+$green: #099a35;
+$white: #ffffff;
+$box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+0 12.5px 10px rgba(0, 0, 0, 0.06),
+0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+0 100px 80px rgba(0, 0, 0, 0.12);
+
+.StudentForm__container {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.StudentForm__form {
+    h3 {color: $green;}
+    padding: 4rem 1rem;
+    width: 500px;
+    margin: auto;
+    input {
+        width: 500px;
+        -webkit-transition: 0.25s;
+        transition: 0.25s;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    input[type=submit] {
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+    }
+    input[type=text]:focus, input[type=email]:focus {
+        outline: none;
+        border: 2px solid $green;
+        border-radius: 5px;
+        box-shadow: $box-shadow;
+    }
+    input[type=submit]:hover {
+        background-color: $green;
+        color: $white;
+        box-shadow: $box-shadow;
+    }
+    textarea {
+        width: 500px;
+        height: 100px;
+    }
+    textarea:focus {
+        outline: none;
+        border: 2px solid $green;
+        border-radius: 5px;
+        box-shadow: $box-shadow;
+    }
+}

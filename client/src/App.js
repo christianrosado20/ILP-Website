@@ -17,6 +17,10 @@ import Faculty from './pages/Faculty';
 import Contact from './pages/Contact';
 import Companies from './pages/Companies';
 
+// Pages that need authentication
+import StudentForm from './pages/StudentForm';
+import FacultyForm from './pages/FacultyForm';
+
 // Redux
 import { Provider } from 'react-redux';
 import store from './redux/store';
@@ -35,6 +39,8 @@ const App = () => {
             <Route path='/faculty' component={Faculty} />
             <Route path='/contact' component={Contact} />
             <Route path='/companies' component={Companies} />
+            <Route path='/StudentForm' component={StudentForm} />
+            <Route path='/FacultyForm' component={FacultyForm} />
           </Switch>
           <Footer />
         </div>
