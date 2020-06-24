@@ -18,6 +18,9 @@ const Landing = () => {
                         <h1 className="Carousel__First">UPRM Creates new program focused on student development</h1>
                     </Carousel.Item>
                 </Carousel>
+                <div className="Section__Two">
+                    <h3 className="Section__Two__Title">What are we after?</h3>
+                </div>
                 
         
             </Container>
