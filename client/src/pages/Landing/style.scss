@@ -4,9 +4,10 @@ $green: #099a35;
 .Jumbotron
 {
     background-image: url('0.jpeg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 450px;
+    height: 600px;
     padding: 0 0 0 0px;
     text-align: center;
     font-size: 3em;
@@ -21,7 +22,7 @@ $green: #099a35;
 
 .Jumbotron__Overlay
 {
-    height: 450px;
+    height: 600px;
     width: 100%;
     background-color: black;
     opacity: .2;
@@ -47,13 +48,15 @@ $green: #099a35;
     color: white;
     text-shadow: 3px 3px 10px  black;
     margin-left: 150px;
-    margin-top: -450px;
+    margin-top: -500px;
+    margin-right: 250px;
+    margin-left: -40px;
     padding-bottom: 0px;
 }
 
 .Jumbotron__Add__On
 {
-    height: 110px;
+    height: 152px;
     width: 100%;
     background-color: $green;
     z-index: 3;
@@ -70,7 +73,7 @@ $green: #099a35;
     font-size: 1.1rem;
     color: white;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 68px;
 }
 
 .Section__Two
@@ -87,9 +90,31 @@ $green: #099a35;
 
 .Section__Two__Title
 {
-    font-size: 2.5em;
-    color: dimgray;
+    font-size: 2.3em;
+    color:white;
     text-align: center;
-    padding-top: 70px;
-    padding-right: 120px;
+    padding-top: 30px;
+    
+}
+
+.Section__Two__Card
+{
+    height: 230px;
+    width: 25%; 
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 1%, rgba(9,154,53,1) 100%); 
+    margin-left: 120px;
+    position: absolute;
+    margin-top: 130px;
+    
+}
+
+.Section__Two__Text
+{
+    font-size: 1em;
+    position: absolute;
+    height: 300px;
+    width: 25%;
+    margin-top: 130px;
+    margin-left: 600px;
 }

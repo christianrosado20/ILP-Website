@@ -19,7 +19,9 @@ const Landing = () => {
                     </Carousel.Item>
                 </Carousel>
                 <div className="Section__Two">
-                    <h3 className="Section__Two__Title">What are we after?</h3>
+                    <div className="Section__Two__Card"><h3 className="Section__Two__Title">About</h3></div>
+                    <h2 className="Section__Two__Text">The Industrial Liaison Program of the University of Puerto Rico Mayagüez provides a platform for students, professors and companies that fosters mutually beneficial collaborations involving research, education, and community.  The program provides support to the hundreds of companies that give and work jointly to strengthen the university antes, ahora, y siempre.</h2>
+                    
                 </div>
                 
         
