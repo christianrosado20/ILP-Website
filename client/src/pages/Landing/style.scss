@@ -111,12 +111,13 @@ $green: #099a35;
 
 .Section__Two__Text
 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     position: absolute;
     height: 300px;
     width: 25%;
-    margin-top: 130px;
+    margin-top: 140px;
     margin-left: 600px;
+    text-align: center;
 }
 
 .Section__Two__Offer
@@ -137,7 +138,6 @@ $green: #099a35;
 
 .Section__Two__Community
 {
-    background-color: $green;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,7 +150,7 @@ $green: #099a35;
 
 .Section__Two__CommunityT
 {
-    color: white;
+    color:$green;
     font-size: 2em;
     text-align: center;
     display: flex;
@@ -167,10 +167,9 @@ $green: #099a35;
 
 .Section__Two__Purpose__Text
 {
-    font-size: 1.1999em;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 30px;
+    font-size: 1em;
+    padding-right: 45px;
+    padding-left: 45px;
     display: flex;
     flex-direction: column;
     justify-content: center;
