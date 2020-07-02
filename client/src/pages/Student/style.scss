@@ -1,0 +1,54 @@
+
+
+.Jumbotro
+{
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    padding: 0 0 0 0px;
+    text-align: center;
+    font-size: 2em;
+    z-index: -1;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    -webkit-box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.84);
+    -moz-box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.84);
+    box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.84);
+}
+
+
+
+.Jumbotron__overlay
+{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    opacity: .2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.Jumbotron__head
+{
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 210px;
+}
+
+.Head__title
+{
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 3px 3px 10px  black;
+    margin-left: 150px;
+    margin-top: -300px;
+    margin-right: 250px;
+    margin-left: -40px;
+    padding-bottom: 0px;
+}
