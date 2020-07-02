@@ -1,54 +1,103 @@
+$black: #000000;
+$green: #099a35;
+$white: #ffffff;
+$box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+0 12.5px 10px rgba(0, 0, 0, 0.06),
+0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+0 100px 80px rgba(0, 0, 0, 0.12);
 
+.Students__container {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
 
-.Jumbotro
-{
-    background-image: url('1.jpg');
+.Students__banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('student.jpg');
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 300px;
-    padding: 0 0 0 0px;
+    height: 250px;
+    margin: 1%;
+}
+
+.Students__bannerMessage {
     text-align: center;
-    font-size: 2em;
-    z-index: -1;
-    box-shadow: 10px 10px 5px #aaaaaa;
-    -webkit-box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.84);
-    -moz-box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.84);
-    box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.84);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem 5rem;
+    box-shadow: $box-shadow;
+    color: $white;
 }
 
+.Companies__infoBlockLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8rem 4rem;
 
+    .Companies__messageBlock {
+        h2 { color: $green; }
+        width: 350px;
+    }
 
-.Jumbotron__overlay
-{
-    height: 300px;
-    width: 100%;
-    background-color: black;
-    opacity: .2;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 0;
+    img {
+        height: 200px;
+        border-radius: 5px;
+        box-shadow: $box-shadow;
+    }
 }
 
-.Jumbotron__head
-{
-    height: 300px;
-    width: 500px;
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 210px;
+.Companies__infoBlockRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8rem 4rem;
+    background-color: $green;
+
+    .Companies__messageBlock {
+        color: $white;
+        width: 350px;
+    }
+
+    img { 
+        height: 200px;
+        border-radius: 5px;
+        box-shadow: $box-shadow; 
+    }
 }
 
-.Head__title
-{
-    font-size: 1.5em;
-    color: white;
-    text-shadow: 3px 3px 10px  black;
-    margin-left: 150px;
-    margin-top: -300px;
-    margin-right: 250px;
-    margin-left: -40px;
-    padding-bottom: 0px;
+.Companies__infoBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8rem 4rem;
+    background-color: $green;
+    .Companies__message {
+        background-color: white;
+        box-shadow: $box-shadow;
+        padding: 5rem;
+        border-radius: 5px;
+        text-align: center;
+
+        button {
+            border: none;
+            border-radius: 5px;
+            background-color: $green;
+            padding: 0.5rem 1.5rem;
+            color: $white;
+            box-shadow: $box-shadow; 
+            a { color: $white; }
+        }
+    }
 }
