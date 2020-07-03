@@ -43,13 +43,15 @@ const Student = () => {
                 </div>
                 <img src="./images/research.jpeg" alt="Centro de Estudiantes"/>
             </div>
-            <div className="Companies__infoBlock">
-                <div className="Companies__message">
-                    <h2>Let's talk on how you can help more students and professors.</h2>
-                    <p>There are a lot of student organizations that would love your help on their future project.  Be the one who stepped up for them, and Puerto Rico's leaders of tomorrow.</p>
-                   
+            <div className="Companies__infoBlockLeft">
+            <img src="./images/students2.jpg" alt="Centro de Estudiantes"/>
+
+                <div className="Companies__messageBlock">
+                    <h2>Innovators</h2>
+                    <p>Our students are appreciated for their open minded approaches and commitment to innovate. Their resilience often leads to different problem solving perspectives. This can be seen in international competitions where their solutions stand out against other recognized institutions from all over the world. Private and public entities come throughout the year to meet and engage with our students. Often these visits lead to creative engagements and ideas that the company visitors take back home with them.</p>
                 </div>
             </div>
+            
         </div>
     )
 }
